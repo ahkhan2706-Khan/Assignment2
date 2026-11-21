@@ -1,16 +1,16 @@
 // 12 records with stable IDs. stock = portions left today.
 export const ITEMS = [
-  { id: 'm1', name: 'Chicken Karahi Box', category: 'Meals', price: 650, stock: 10, veg: false, spicy: 3, kcal: 720, prep: 25, desc: 'Peshawari-style karahi with 2 rotis and salad.' },
-  { id: 'm2', name: 'Daal Chawal Bowl', category: 'Meals', price: 380, stock: 14, veg: true, spicy: 1, kcal: 560, prep: 15, desc: 'Masoor daal tadka over steamed rice, achar on the side.' },
-  { id: 'm3', name: 'Beef Pulao Box', category: 'Meals', price: 590, stock: 5, veg: false, spicy: 2, kcal: 810, prep: 30, desc: 'Yakhni pulao with raita and kachumber.' },
-  { id: 'm4', name: 'Chana Chaat Bowl', category: 'Meals', price: 320, stock: 3, veg: true, spicy: 2, kcal: 430, prep: 10, desc: 'Chickpeas, yoghurt, tamarind, crisp papri.' },
-  { id: 'm5', name: 'Alfredo Pasta Tub', category: 'Meals', price: 560, stock: 8, veg: false, spicy: 0, kcal: 690, prep: 20, desc: 'Creamy chicken pasta, reheats in 3 minutes.' },
-  { id: 'b1', name: 'Exam Week Bundle (5 days)', category: 'Bundles', price: 2900, stock: 4, veg: false, spicy: 2, kcal: 3200, prep: 45, desc: 'Five lunches: Mon–Fri rotation. Delivered together.' },
-  { id: 'b2', name: 'Veg Week Bundle (5 days)', category: 'Bundles', price: 2200, stock: 6, veg: true, spicy: 1, kcal: 2500, prep: 45, desc: 'Five vegetarian lunches, no repeats.' },
-  { id: 's1', name: 'Frozen Samosa Pack (12)', category: 'Sides', price: 420, stock: 9, veg: false, spicy: 1, kcal: 900, prep: 5, collectionOnly: true, desc: 'Frozen, so collection only. Fry or air-fry at home.' },
-  { id: 's2', name: 'Frozen Paratha Pack (6)', category: 'Sides', price: 300, stock: 12, veg: true, spicy: 0, kcal: 960, prep: 5, collectionOnly: true, desc: 'Frozen, so collection only.' },
-  { id: 's3', name: 'Mint Raita Cup', category: 'Sides', price: 90, stock: 20, veg: true, spicy: 0, kcal: 80, prep: 2, desc: 'Cool mint yoghurt.' },
-  { id: 'd1', name: 'Doodh Patti Flask', category: 'Drinks', price: 180, stock: 7, veg: true, spicy: 0, kcal: 210, prep: 8, desc: 'Strong tea in a 500 ml thermal flask.' },
-  { id: 'd2', name: 'Rooh Afza Sharbat (1 L)', category: 'Drinks', price: 150, stock: 0, veg: true, spicy: 0, kcal: 260, prep: 2, desc: 'Sold out today – back tomorrow.' },
+  { id: 'm1', name: 'Khan Crunch Burger', category: 'Burgers', price: 590, stock: 10, veg: false, spicy: 3, kcal: 650, prep: 12, desc: 'Crispy spiced chicken fillet, mayo and lettuce in a toasted bun.' },
+  { id: 'm2', name: 'Double Khan Stack', category: 'Burgers', price: 890, stock: 6, veg: false, spicy: 2, kcal: 980, prep: 15, desc: 'Two fillets, cheese slice and house sauce.' },
+  { id: 'm3', name: 'Tikka Grill Burger', category: 'Burgers', price: 640, stock: 5, veg: false, spicy: 2, kcal: 590, prep: 14, desc: 'Grilled tikka-marinated chicken with mint chutney.' },
+  { id: 'm4', name: 'Aloo Patty Burger', category: 'Burgers', price: 450, stock: 8, veg: true, spicy: 1, kcal: 520, prep: 10, desc: 'Potato and pea patty, tomato and green chutney.' },
+  { id: 'c1', name: 'Fried Chicken, 2 Pieces', category: 'Chicken', price: 520, stock: 12, veg: false, spicy: 2, kcal: 640, prep: 15, desc: 'Pressure-fried, with one roll.' },
+  { id: 'c2', name: 'Fire Wings (6)', category: 'Chicken', price: 480, stock: 9, veg: false, spicy: 3, kcal: 540, prep: 15, desc: 'Wings tossed in chilli-garlic glaze.' },
+  { id: 'c3', name: 'Family Bucket (8 pieces)', category: 'Chicken', price: 2290, stock: 4, veg: false, spicy: 2, kcal: 2600, prep: 25, desc: 'Eight pieces, 4 rolls and a large fries.' },
+  { id: 'w1', name: 'Chicken Tikka Wrap', category: 'Wraps', price: 430, stock: 11, veg: false, spicy: 2, kcal: 560, prep: 10, desc: 'Tikka strips, onion and raita in a paratha wrap.' },
+  { id: 's1', name: 'Masala Fries', category: 'Sides', price: 260, stock: 20, veg: true, spicy: 2, kcal: 430, prep: 8, desc: 'Skin-on fries with chaat masala.' },
+  { id: 's2', name: 'Coleslaw Cup', category: 'Sides', price: 120, stock: 0, veg: true, spicy: 0, kcal: 150, prep: 2, desc: 'Sold out today. Back tomorrow.' },
+  { id: 'd1', name: 'Mint Margarita', category: 'Drinks', price: 220, stock: 14, veg: true, spicy: 0, kcal: 140, prep: 4, desc: 'Fresh mint, lemon and soda.' },
+  { id: 'd2', name: 'Soft-Serve Sundae', category: 'Desserts', price: 190, stock: 7, veg: true, spicy: 0, kcal: 310, prep: 3, collectionOnly: true, desc: 'Melts in transit, so collection only.' },
 ];
-export const CATEGORIES = ['All', 'Meals', 'Bundles', 'Sides', 'Drinks'];
+export const CATEGORIES = ['All', 'Burgers', 'Chicken', 'Wraps', 'Sides', 'Drinks', 'Desserts'];

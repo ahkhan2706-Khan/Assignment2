@@ -8,7 +8,7 @@ export default function Layout() {
     <>
       <a className="skip" href="#main">Skip to content</a>
       <header className="top">
-        <Link to="/" className="brand">Pindi Prep</Link>
+        <Link to="/" className="brand">Khan Foods</Link>
         <nav aria-label="Main">
           <NavLink to="/" end>Menu</NavLink>
           <NavLink to="/checkout">Order ({count}) · Rs {total}</NavLink>
@@ -41,7 +41,7 @@ export default function Layout() {
             onClick={() => setDemo((d) => ({ ...d, soldOut: d.soldOut.length ? [] : ['m1', 'm3'] }))}
             disabled={!items.length && !demo.soldOut.length}
           >
-            {demo.soldOut.length ? 'Restore stock' : 'Sell out Karahi and Pulao'}
+            {demo.soldOut.length ? 'Restore stock' : 'Sell out two burgers'}
           </button>
         </fieldset>
       </footer>
